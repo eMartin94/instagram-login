@@ -56,7 +56,7 @@ Esto abrirá la aplicación en tu navegador en la dirección `http://localhost:5
 
 ## Estructura del proyecto
 
-El proyecto se basa en la estructura típica de una aplicación de React creada utilizando `create-react-app`.
+El proyecto se basa en la estructura típica de una aplicación de React creada utilizando `npm create vite@latest`.
 
 - `src`: Este directorio contiene todo el código fuente de la aplicación.
 - `index.js`: Punto de entrada de la aplicación.
