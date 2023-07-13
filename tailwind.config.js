@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'login-hero': "url('/src/assets/home-phones.webp')",
+      },
+      transitionDuration: {
+        '1500': '1500ms',
+      }
+    },
   },
   plugins: [],
 }
