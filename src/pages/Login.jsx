@@ -24,7 +24,7 @@ const Login = () => {
     <section className='w-full min-h-screen grid grid-cols-1 justify-center items-center text-[12px]'>
       <main className='w-full h-full flex flex-col justify-center items-center lg:px-10 py-10'>
         <article className='flex justify-center items-center w-full h-full'>
-          <div className='lg:flex justify-center items-center hidden bg-login-hero w-[420px] h-[600px] bg-no-repeat mr-4'>
+          <div className='2md:flex justify-center items-center hidden bg-login-hero w-[420px] h-[600px] bg-no-repeat mr-10'>
             <div className='relative w-full h-full mt-[50px]'>
               {images.map((image, index) => (
                 <img
@@ -38,8 +38,8 @@ const Login = () => {
               ))}
             </div>
           </div>
-          <div className='flex flex-col justify-center items-center w-[350px] gap-4'>
-            <div className='md:border-2 md:border-gray-200 w-full px-10 py-5'>
+          <div className='flex flex-col justify-center items-center w-[350px] gap-3'>
+            <div className='md:border-[1px] md:border-gray-300 w-full px-10 py-5'>
               <form className='flex flex-col gap-2 justify-center items-center'>
                 <div className='w-[200px] mb-4'>
                   <img src='/src/assets/instagram.webp' alt='instagram' />
@@ -47,9 +47,10 @@ const Login = () => {
                 <div className='flex flex-col justify-center items-center gap-2 w-full mb-3'>
                   <Input
                     type='text'
-                    placeholder='Teléfono, usuario o correo electrónico'
+                    label='Teléfono, usuario o correo electrónico'
                   />
-                  <Input type='password' placeholder='Contraseña' />
+                  <Input type='password' label='Contraseña' />
+
                   <button
                     type='submit'
                     className='bg-sky-500 rounded-md px-2 py-2 mt-4 text-white font-bold w-full hover:bg-sky-600'
@@ -84,7 +85,7 @@ const Login = () => {
                 </div>
               </form>
             </div>
-            <div className='w-full flex justify-center items-center md:border-2 md:border-gray-200 px-10 py-5'>
+            <div className='w-full flex justify-center items-center md:border-[1px] md:border-gray-300 px-10 py-5'>
               <p className='text-sm'>
                 ¿No tienes una cuenta?{' '}
                 <span className='text-sky-500 font-semibold'>
@@ -94,7 +95,7 @@ const Login = () => {
             </div>
             <div className='w-full flex flex-col justify-center items-center py-2 gap-4'>
               <div>
-                <p>Descarga la app.</p>
+                <p className='text-sm'>Descarga la app.</p>
               </div>
               <div className='flex gap-2'>
                 <a href='#' className='h-[40px]'>
@@ -118,7 +119,7 @@ const Login = () => {
       </main>
       <footer className='w-full h-full px-10 py-5 flex flex-col justify-center items-center text-gray-500'>
         <div className='flex flex-col justify-center items-center'>
-          <ul className='flex flex-wrap justify-center items-center gap-4 mb-4 '>
+          <ul className='flex flex-wrap justify-center items-center gap-x-4 gap-y-2 mb-4 '>
             <li>
               <a href='#' target='_blank'>
                 Meta

@@ -11,6 +11,15 @@ export default {
       },
       transitionDuration: {
         '1500': '1500ms',
+      },
+      screens: {
+        'xs': '480px',
+        'sm': '640px',
+        'md': '768px',
+        '2md': '876px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
       }
     },
   },
